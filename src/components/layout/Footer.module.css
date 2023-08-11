@@ -1,0 +1,48 @@
+.footer{
+    background-color: #222;
+    color: #fff;
+    padding: 3em;
+    text-align: center;
+}
+
+.item{
+    text-decoration: none;
+}
+
+.social_list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.social_list li{
+    margin: 0 1em;
+    transition: .8s;
+}
+
+.social_list li:hover{
+    font-size: 1.1em;
+    border: .8px solid #ffbb33;
+    color: #ffbb33;
+    padding: 5px 5px 0 5px;
+    border-radius: 7px;
+}
+
+.social_list svg{
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.copy_right{
+    margin-top: 2em;
+}
+
+.copy_right span{
+    font-weight: bold;
+    color: #ffbb33;
+}
+
+.copy_right span:hover{
+    font-weight: bolder;
+}

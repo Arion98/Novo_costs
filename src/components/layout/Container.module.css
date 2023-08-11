@@ -1,0 +1,20 @@
+.Container{
+    width: 92vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.min-height{
+    min-height: 75%;
+}
+
+.start{
+    justify-content: flex-start;
+}
+
+.colomn{
+    flex-direction: column;
+    justify-content: flex-start;
+}
