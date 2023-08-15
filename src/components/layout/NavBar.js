@@ -16,16 +16,9 @@ const NavBar = () => {
           <li className={Styles.item}>
             <Link to="/">Home</Link>
           </li>
-          <li className={Styles.item}>
+          <li className={Styles.item2}>
             <Link to="/Projects">Meus projetos</Link>
           </li>
-          <li className={Styles.item}>
-            <Link to="/Empresa">Empresa</Link>
-          </li>
-          <li className={Styles.item}>
-            <Link to="/Contato">Contato</Link>
-          </li>
-         
         </ul>
       </Container>
     </nav>

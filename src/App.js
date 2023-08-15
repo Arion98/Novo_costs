@@ -9,6 +9,7 @@ import Projects from "./components/pages/Projects";
 
 import {BrowserRouter as Router, Routes,Route } from "react-router-dom"
 import './App.css';
+import Project from "./components/pages/Project";
 
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
           <Route exact path="/Empresa" element={ <Empresa />}/>
 
           <Route exact path="/NovoProjeto" element={ <NovoProjeto />}/>
+
+          <Route exact path="/Project/:id" element={ <Project />}/>
         </Routes>
     </Container>
     <Footer />

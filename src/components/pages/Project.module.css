@@ -1,0 +1,55 @@
+.Project_container{
+  padding: 2em 0;
+}
+
+.Project_container h1,
+.Project_container h2,
+.Project_container p {
+    margin-bottom: .5em;
+}
+
+.Project_container h1{
+    background-color: #222;
+    color: #fb3;
+    margin-top: 10px;
+    text-align: center;
+    padding: .4em;
+}
+
+.Project_container span {
+    font-weight: bolder;
+}
+
+.details_container,
+.service_form_container{
+    border-bottom: 1px solid #7b7b7b;
+    margin-bottom: 1.2em;
+    padding-bottom:1.2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn{
+    background-color: #222;
+    color: #fff;
+    padding: .5em 1em;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: .5s;
+    cursor: pointer;
+    max-height: 40px;
+    border: none;
+}
+
+.btn:hover{
+    color: #ffbb33;
+
+}
+
+.Project_info{
+    width: 100%;
+}
+.Project_info2{
+    width: 100%;
+}
